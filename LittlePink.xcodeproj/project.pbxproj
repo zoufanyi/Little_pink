@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564791BB27C4CE2F000E17ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791BA27C4CE2F000E17ED /* AppDelegate.swift */; };
+		564791BD27C4CE2F000E17ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791BC27C4CE2F000E17ED /* SceneDelegate.swift */; };
+		564791BF27C4CE2F000E17ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791BE27C4CE2F000E17ED /* ViewController.swift */; };
+		564791C227C4CE2F000E17ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564791C027C4CE2F000E17ED /* Main.storyboard */; };
+		564791C427C4CE30000E17ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564791C327C4CE30000E17ED /* Assets.xcassets */; };
+		564791C727C4CE30000E17ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564791C527C4CE30000E17ED /* LaunchScreen.storyboard */; };
+		564791D227C4CE30000E17ED /* LittlePinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791D127C4CE30000E17ED /* LittlePinkTests.swift */; };
+		564791DC27C4CE30000E17ED /* LittlePinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791DB27C4CE30000E17ED /* LittlePinkUITests.swift */; };
+		564791DE27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791DD27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564791CE27C4CE30000E17ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564791AF27C4CE2F000E17ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564791B627C4CE2F000E17ED;
+			remoteInfo = LittlePink;
+		};
+		564791D827C4CE30000E17ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564791AF27C4CE2F000E17ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564791B627C4CE2F000E17ED;
+			remoteInfo = LittlePink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564791B727C4CE2F000E17ED /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564791BA27C4CE2F000E17ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		564791BC27C4CE2F000E17ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		564791BE27C4CE2F000E17ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		564791C127C4CE2F000E17ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564791C327C4CE30000E17ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564791C627C4CE30000E17ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564791C827C4CE30000E17ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564791CD27C4CE30000E17ED /* LittlePinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564791D127C4CE30000E17ED /* LittlePinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkTests.swift; sourceTree = "<group>"; };
+		564791D727C4CE30000E17ED /* LittlePinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564791DB27C4CE30000E17ED /* LittlePinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITests.swift; sourceTree = "<group>"; };
+		564791DD27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564791B427C4CE2F000E17ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564791CA27C4CE30000E17ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564791D427C4CE30000E17ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564791AE27C4CE2F000E17ED = {
+			isa = PBXGroup;
+			children = (
+				564791B927C4CE2F000E17ED /* LittlePink */,
+				564791D027C4CE30000E17ED /* LittlePinkTests */,
+				564791DA27C4CE30000E17ED /* LittlePinkUITests */,
+				564791B827C4CE2F000E17ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564791B827C4CE2F000E17ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564791B727C4CE2F000E17ED /* LittlePink.app */,
+				564791CD27C4CE30000E17ED /* LittlePinkTests.xctest */,
+				564791D727C4CE30000E17ED /* LittlePinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564791B927C4CE2F000E17ED /* LittlePink */ = {
+			isa = PBXGroup;
+			children = (
+				564791BA27C4CE2F000E17ED /* AppDelegate.swift */,
+				564791BC27C4CE2F000E17ED /* SceneDelegate.swift */,
+				564791BE27C4CE2F000E17ED /* ViewController.swift */,
+				564791C027C4CE2F000E17ED /* Main.storyboard */,
+				564791C327C4CE30000E17ED /* Assets.xcassets */,
+				564791C527C4CE30000E17ED /* LaunchScreen.storyboard */,
+				564791C827C4CE30000E17ED /* Info.plist */,
+			);
+			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		564791D027C4CE30000E17ED /* LittlePinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				564791D127C4CE30000E17ED /* LittlePinkTests.swift */,
+			);
+			path = LittlePinkTests;
+			sourceTree = "<group>";
+		};
+		564791DA27C4CE30000E17ED /* LittlePinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564791DB27C4CE30000E17ED /* LittlePinkUITests.swift */,
+				564791DD27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift */,
+			);
+			path = LittlePinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564791B627C4CE2F000E17ED /* LittlePink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564791E127C4CE30000E17ED /* Build configuration list for PBXNativeTarget "LittlePink" */;
+			buildPhases = (
+				564791B327C4CE2F000E17ED /* Sources */,
+				564791B427C4CE2F000E17ED /* Frameworks */,
+				564791B527C4CE2F000E17ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittlePink;
+			productName = LittlePink;
+			productReference = 564791B727C4CE2F000E17ED /* LittlePink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564791CC27C4CE30000E17ED /* LittlePinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564791E427C4CE30000E17ED /* Build configuration list for PBXNativeTarget "LittlePinkTests" */;
+			buildPhases = (
+				564791C927C4CE30000E17ED /* Sources */,
+				564791CA27C4CE30000E17ED /* Frameworks */,
+				564791CB27C4CE30000E17ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564791CF27C4CE30000E17ED /* PBXTargetDependency */,
+			);
+			name = LittlePinkTests;
+			productName = LittlePinkTests;
+			productReference = 564791CD27C4CE30000E17ED /* LittlePinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564791D627C4CE30000E17ED /* LittlePinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564791E727C4CE30000E17ED /* Build configuration list for PBXNativeTarget "LittlePinkUITests" */;
+			buildPhases = (
+				564791D327C4CE30000E17ED /* Sources */,
+				564791D427C4CE30000E17ED /* Frameworks */,
+				564791D527C4CE30000E17ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564791D927C4CE30000E17ED /* PBXTargetDependency */,
+			);
+			name = LittlePinkUITests;
+			productName = LittlePinkUITests;
+			productReference = 564791D727C4CE30000E17ED /* LittlePinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564791AF27C4CE2F000E17ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					564791B627C4CE2F000E17ED = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					564791CC27C4CE30000E17ED = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 564791B627C4CE2F000E17ED;
+					};
+					564791D627C4CE30000E17ED = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 564791B627C4CE2F000E17ED;
+					};
+				};
+			};
+			buildConfigurationList = 564791B227C4CE2F000E17ED /* Build configuration list for PBXProject "LittlePink" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564791AE27C4CE2F000E17ED;
+			productRefGroup = 564791B827C4CE2F000E17ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564791B627C4CE2F000E17ED /* LittlePink */,
+				564791CC27C4CE30000E17ED /* LittlePinkTests */,
+				564791D627C4CE30000E17ED /* LittlePinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564791B527C4CE2F000E17ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564791C727C4CE30000E17ED /* LaunchScreen.storyboard in Resources */,
+				564791C427C4CE30000E17ED /* Assets.xcassets in Resources */,
+				564791C227C4CE2F000E17ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564791CB27C4CE30000E17ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564791D527C4CE30000E17ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564791B327C4CE2F000E17ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564791BF27C4CE2F000E17ED /* ViewController.swift in Sources */,
+				564791BB27C4CE2F000E17ED /* AppDelegate.swift in Sources */,
+				564791BD27C4CE2F000E17ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564791C927C4CE30000E17ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564791D227C4CE30000E17ED /* LittlePinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564791D327C4CE30000E17ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564791DE27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift in Sources */,
+				564791DC27C4CE30000E17ED /* LittlePinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564791CF27C4CE30000E17ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564791B627C4CE2F000E17ED /* LittlePink */;
+			targetProxy = 564791CE27C4CE30000E17ED /* PBXContainerItemProxy */;
+		};
+		564791D927C4CE30000E17ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564791B627C4CE2F000E17ED /* LittlePink */;
+			targetProxy = 564791D827C4CE30000E17ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564791C027C4CE2F000E17ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564791C127C4CE2F000E17ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		564791C527C4CE30000E17ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564791C627C4CE30000E17ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564791DF27C4CE30000E17ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564791E027C4CE30000E17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564791E227C4CE30000E17ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFW8TUN8WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittlePink/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LittlePink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564791E327C4CE30000E17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFW8TUN8WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittlePink/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LittlePink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		564791E527C4CE30000E17ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFW8TUN8WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LittlePinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittlePink.app/LittlePink";
+			};
+			name = Debug;
+		};
+		564791E627C4CE30000E17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFW8TUN8WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LittlePinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittlePink.app/LittlePink";
+			};
+			name = Release;
+		};
+		564791E827C4CE30000E17ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFW8TUN8WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LittlePinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittlePink;
+			};
+			name = Debug;
+		};
+		564791E927C4CE30000E17ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFW8TUN8WL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LittlePinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittlePink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564791B227C4CE2F000E17ED /* Build configuration list for PBXProject "LittlePink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564791DF27C4CE30000E17ED /* Debug */,
+				564791E027C4CE30000E17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564791E127C4CE30000E17ED /* Build configuration list for PBXNativeTarget "LittlePink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564791E227C4CE30000E17ED /* Debug */,
+				564791E327C4CE30000E17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564791E427C4CE30000E17ED /* Build configuration list for PBXNativeTarget "LittlePinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564791E527C4CE30000E17ED /* Debug */,
+				564791E627C4CE30000E17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564791E727C4CE30000E17ED /* Build configuration list for PBXNativeTarget "LittlePinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564791E827C4CE30000E17ED /* Debug */,
+				564791E927C4CE30000E17ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564791AF27C4CE2F000E17ED /* Project object */;
+}
