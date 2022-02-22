@@ -16,6 +16,7 @@
 		564791D227C4CE30000E17ED /* LittlePinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791D127C4CE30000E17ED /* LittlePinkTests.swift */; };
 		564791DC27C4CE30000E17ED /* LittlePinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791DB27C4CE30000E17ED /* LittlePinkUITests.swift */; };
 		564791DE27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564791DD27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift */; };
+		564791EB27C4D311000E17ED /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 564791EA27C4D311000E17ED /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		564791D727C4CE30000E17ED /* LittlePinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		564791DB27C4CE30000E17ED /* LittlePinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITests.swift; sourceTree = "<group>"; };
 		564791DD27C4CE30000E17ED /* LittlePinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		564791EA27C4D311000E17ED /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		564791AE27C4CE2F000E17ED = {
 			isa = PBXGroup;
 			children = (
+				564791EA27C4D311000E17ED /* .gitignore */,
 				564791B927C4CE2F000E17ED /* LittlePink */,
 				564791D027C4CE30000E17ED /* LittlePinkTests */,
 				564791DA27C4CE30000E17ED /* LittlePinkUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				564791EB27C4D311000E17ED /* .gitignore in Resources */,
 				564791C727C4CE30000E17ED /* LaunchScreen.storyboard in Resources */,
 				564791C427C4CE30000E17ED /* Assets.xcassets in Resources */,
 				564791C227C4CE2F000E17ED /* Main.storyboard in Resources */,
